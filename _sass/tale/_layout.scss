@@ -40,7 +40,6 @@ footer,
     list-style-type: none;
     margin: 1rem 0 0;
     padding: 0;
-    text-align: center;
   }
 
   li {
@@ -71,11 +70,12 @@ footer,
     &-container {
       text-align: left;
     }
-
-    ul {
-      bottom: 0;
+    &-social {
+      text-align: right;
       position: absolute;
       right: 0;
+      top: 0;
+      ul { margin: 0; }
     }
   }
 }

@@ -6,7 +6,7 @@ bodyclass: blog audit security software-design
 excerpt: Most software buyers lack the knowledge or skills to fully assess what they've bought. We offer professional auditing of code to find any issues that may need addressing and give you a general indicator of code health. Sometimes these audits turn out to be shockingly easy to complete. Here's a quick exaple of some cowboy code that is a dead giveaway your developers are *not* experienced profesionals.
 ---
 
-Software is complex, so when auditing it's easy to kneejerk a reaction without fully understanding the decisions, compromises and problems that led to a particular area of code. However, there are some cases where the quality and health of the code is very straightforward to assess. If you're lucky, your code has great test coverage, obvious and predictable code paths and consisitent appropriate architecture. If you're unlucky, your code might contain lines like this gem, which we found in a live PHP website:
+Software is complex, so when auditing it's easy to kneejerk a reaction without fully understanding the decisions, compromises and problems that led to a particular area of code. However, there are some cases where the quality and health of the code is very straightforward to assess. If you're lucky, your code has great test coverage, obvious and predictable code paths and consistent, appropriate architecture. If you're unlucky, your code might contain lines like this gem, which I found in a live PHP website:
 
 {% highlight php %}
 $result = mysql_query("UPDATE agente set zona='".$_POST['zona_f']."', nombre='".$_POST['nombre_f']."', direccion='".$_POST['direccion_f']."', direccion2='".$_POST['direccion2_f']." where idAgente=".$_POST['idAgente_f'], $BD) or die("A MySQL error has occurred.<br />Your Query: " . $query . "<br /> Error: (" . mysql_errno() . ") " . mysql_error());
@@ -75,8 +75,4 @@ For experienced hackers, this would be a surprisingly easy 2 minute attack. For 
 
 ### Summary
 
-This line indicates code which is terrifyingly ripe for exploitation. A more in depth analysis of the code basse revealed much more of the same, alongside bot-injected code from attackers who have already found some of these weaknesses and critical performance bottlenecks. The clean up was long and painful, but the client is in a much better place because of it.
-
----
-
-Concerned about your app security and performance? Why not <a href="/contact">get in touch</a> for a quick audit?
+This line indicates code which is terrifyingly ripe for exploitation. A more in depth analysis of the code base revealed much more of the same, alongside bot-injected code from attackers who have already found some of these weaknesses and critical performance bottlenecks. The clean up was long and painful, but the client is in a much better place because of it.

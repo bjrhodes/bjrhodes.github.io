@@ -1,29 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <ul>
+        <li><a href="/">About</a></li>
+        <li><a href="/posts/">Posts</a></li>
+      </ul>
+
+      <div class="nav-social">
         <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="/posts/">Posts</a></li>
+          {% if site.author.youtube %}
+          <li>
+            <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
+              <span class="icon-youtube"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.author.stackoverflow %}
+          <li>
+            <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
+              <span class="icon-stackoverflow"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.author.twitter %}
+          <li>
+            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
+              <span class="icon-twitter"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.author.github %}
+          <li>
+            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
+              <span class="icon-github"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.author.mail %}
+          <li>
+            <a href="mailto:{{ site.author.mail }}" target="_blank">
+              <span class="icon-mail_outline"></span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.author.rss == true %}
+          <li>
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
+              <span class="icon-rss_feed"></span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
+      </div>
     </div>
   </nav>
 
-    <main>
-      {{ content }}
-    </main>
+  <main>
+    {{ content }}
+  </main>
 
-    <footer>
-      <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
-      </span>
-    </footer>
-  </body>
+  <footer>
+    <span>
+      &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    </span>
+  </footer>
+</body>
 </html>

@@ -6,9 +6,15 @@ url:            "https://bjrhodes.github.io"
 
 # Author
 author:
-  name:         Barry Rhodes
-  url:          https://bjrhodes.co.uk
-  email:        barry@bjrhodes.co.uk
+  name:          Barry Rhodes
+  url:           https://bjrhodes.co.uk
+  email:         barry@bjrhodes.co.uk
+  github:        bjrhodes
+  stackoverflow: users/4247571/bjrhodes
+  twitter:       beejrhodes
+  mail:          barry@bjrhodes.co.uk
+  rss:           true
+  youtube:       false
 
 # Build settings
 markdown:       kramdown

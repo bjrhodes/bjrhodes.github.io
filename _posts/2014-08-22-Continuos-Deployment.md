@@ -49,7 +49,7 @@ market for new features.
 ## I'm sold. how do I get there?
 
 There is no hard-and-fast solution, every product is different and offers slightly different challenges, but a wealth of
-tools exist to make the process a smooth one. We reccomend starting with finding the easy gains in your release flow.
+tools exist to make the process a smooth one. I recommend starting with finding the easy gains in your release flow.
 Instead of FTP'ing files over the top of your live code, upload to a new folder and deploy with a release script. this
 can be as simple as a bash script that sets file permissions on your new folders and then renames into your live path. A
 similar rollback script can get you out of trouble fast. At the same time, start adding tests to your codebase and
@@ -57,6 +57,3 @@ running them before deployment.
 
 Even these small pieces of automation will start leading you toward where you want to be and highlighting the steps an
 automated process should take. Removing yourself as much as possible is the goal.
-
-If you have an existing application that you feel would benefit from automation, why not
-[get in touch](/contact)?

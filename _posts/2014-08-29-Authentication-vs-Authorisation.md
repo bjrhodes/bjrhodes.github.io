@@ -6,10 +6,10 @@ bodyclass: blog authentication-authorisation
 excerpt: By far the most common flaw we see in large applications is the assumption that an authenticated user is an authorised user. When building an application with a login area knowing the difference is very important.
 description: By far the most common flaw we see in large applications is the assumption that an authenticated user is an authorised user. When building an application with a login area knowing the difference is very important.
 ---
-For the large-scale projects we get involved in, security is often a major consideration. When taking over an existing
-concern, one of the first areas we audit is application security. More often than not there are holes. Usually these
+For the large-scale projects I get involved in, security is often a major consideration. When taking over an existing
+concern, one of the first areas I audit is application security. More often than not there are holes. Usually these
 are simple oversights, and sometimes the exploits are only available to technically savvy people with a lot of time to
-spend on an attack. However the most common flaws we see in large applications are caused by mistaken assumptions. The
+spend on an attack. However the most common flaws I see in large applications are caused by mistaken assumptions. The
 most dangerous and most common of these is the assumption that an **authenticated** user is an **authorised** user.
 
 ## What's the difference?
@@ -28,7 +28,7 @@ blind spot.
 Online, authentication is often handled at the application level. When you request a page or try to make a change, the
 application authenticates you and passes you through to the requested functionality. From there it is the developers
 job to ensure you are **authorised** to perform the requested action. There are many different patterns and paradigms
-around authorisation, but by far the most common we see is... none. Even with paid-for user accounts, it may be worthwhile
+around authorisation, but by far the most common I see is... none. Even with paid-for user accounts, it may be worthwhile
 for a hacker to sign-up to an exploitable system in order to mine user data or attack the service. In this age of Free
 trials, free tiers and social integration, it is critical to ensure your application developer has carefully considered
 authorisation and fully understands the ramifications of a missing authorisation layer.

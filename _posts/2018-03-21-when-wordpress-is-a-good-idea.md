@@ -15,7 +15,7 @@ WordPress has been designed to be easy for content creators to quickly put a web
 
 As well as this, there's a huge ecosystem of themes, plugins and services which are incredibly easy to add. We've seen WordPress turned to more jobs and areas than we ever expected, but it's extensibility and configurability provide a lot of flexibility and allow for great personalisation.
 
-The latest statistics estimate that ~30% of the web is powered by WordPress, including some surprisingly big brands and more than a few sites which we've built here at Foundry.
+The latest statistics estimate that ~30% of the web is powered by WordPress, including some surprisingly big brands and more than a few sites which I've built myself.
 
 ## So why wouldn't you use it?
 
@@ -34,5 +34,3 @@ These problems are easily mitigated, with regular maintenance, page caching, car
 The best projects for WordPress are ones that are relatively static front-end pages, with rapidly changing and often updated content. If you have a copy-writer or in-house marketing team that regularly pushes updates to your site, WordPress can give your productivity a tremendous boost. The large ecosystem of plugins also allow for a wide range of workflows and integration to third party services at low cost. It's great to simply type in a blog post, hit publish and have it appear on all of your social feeds.
 
 If you're not using these features though, or if your content is significantly more varied than words and images inside a few predetermined layouts, you may be better off with an alternative.
-
-**If you're considering a new website and want to work with an agency that will use the best platform for you, why not [contact us](/contact/) for a [free consultation](/the-project-process/).**
