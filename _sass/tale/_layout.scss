@@ -13,6 +13,12 @@ footer,
   width: 80%;
 }
 
+.featured-image img {
+  max-height: 270px;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
