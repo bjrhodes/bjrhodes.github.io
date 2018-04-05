@@ -1,0 +1,37 @@
+# Site settings
+title:          Barry Rhodes
+description:    "Web Developer"
+baseurl:        ""
+url:            "https://bjrhodes.github.io"
+
+# Author
+author:
+  name:         Barry Rhodes
+  url:          https://bjrhodes.co.uk
+  email:        barry@bjrhodes.co.uk
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-gist
+  - jekyll-sitemap
+
+# Permalinks
+permalink:      /posts/:year-:month-:day/:title
+
+# Pagination
+
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  sort_reverse: true

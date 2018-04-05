@@ -1,0 +1,46 @@
+---
+layout: default
+title: Why we use Agile
+author: Barry Rhodes
+bodyclass: blog agile-development
+excerpt: We have a lot of fun developing software, but it's not the development itself that is where the enjoyment comes from. We most enjoy solving problems, and solving them well. To do that we need to really understand the end users and what they need from their software.
+description: We have a lot of fun developing software, but it's not the development itself that is where the enjoyment comes from. We most enjoy solving problems, and solving them well. To do that we need to really understand the end users and what they need from their software.
+---
+## What is Agile Development
+
+Agile is a development mindset which is centered around delivering working software quickly. Approaches vary, but this
+goal is usually achieved through close collaboration, short-term development cycles, constant feedback and a deep
+understanding of a small area of functionality.
+
+## Why we love agile
+
+We have a lot of fun developing software, but it's not the development itself that is where the enjoyment comes from. We
+most enjoy solving problems, and solving them well. To do that we need to really understand the end users and what they
+need from their software. Often when going into the vast complexitites of a large project these needs can be forgotten.
+We can use Agile development techniques to ensure the user experience is front and center.
+
+## How we acheive agility
+
+We start with a broad but shallow overview of the project. Who are the users? What are their goals? Using these simple
+questions, we start to create loose characters for discussion. For example
+
+ - David is a customer who wants to pay an invoice.
+ - Lucy is a staff member who wants to adjust a booking.
+ - Tom is a user who wants to share a photo.
+
+From here we home in on the most critical features. We ideally try to find a complete feature which we can deliver in a
+short space of time. It may even transpire that part of the application could be used standalone, right away. Once a
+feature is chosen, the user-requirements for this feature are planned in detail. When we thoroughly understand the users
+goal our technical approach is mapped out, costed and agreed upon with firm timescales in place.
+
+We can then confidently set upon the work of crafting this functionality. During this phase we rely heavily on high
+quality work being produced, as this is the key to the later stages. What is delivered is  a fully working, high quality
+piece of software, albeit it with very limited scope.
+
+We put this software in front of as many users and stakeholders as we can and gather feedback on the product. Analysis
+of this feedback is used to reaffirm or modify the projects goals. As user goals become better understood, requirements
+shift and the product is adapted to suit.
+
+By constantly measuring usage and engagement we can deliver a demonstratably more suitable application at each
+iteration. From the perspective of people who love solving problems, Agile gives us a great way of knowing that real
+problems are being solved. And that's great for everyone.
