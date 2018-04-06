@@ -15,16 +15,16 @@ Hopefully, I'll be speaking with you soon!
 ## My favourite work
 
 <div class="portfolio-previews">
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/comprobo.jpg);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/comprobo.jpg);">
         <a href="/portfolio/comprobo/" class="portfolio-preview__link">Comprobo</a>
     </diV>
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/college-hero.jpg);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/college-hero.jpg);">
         <a href="/portfolio/cornwall-college/" class="portfolio-preview__link">Cornwall College</a>
     </diV>
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/lepe.jpg);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/lepe.jpg);">
         <a href="/portfolio/lepe/" class="portfolio-preview__link">LEPE</a>
     </diV>
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/matchhero.jpg);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/matchhero.jpg);">
         <a href="/portfolio/matchhero/" class="portfolio-preview__link">MatchHero</a>
     </diV>
 </diV>
@@ -32,10 +32,10 @@ Hopefully, I'll be speaking with you soon!
 ## White-label work
 
 <div class="portfolio-previews">
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/charity.png);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/charity.png);">
         <a href="/portfolio/charity-outreach/" class="portfolio-preview__link">Charity Outreach</a>
     </diV>
-    <div class="portfolio-preview" style="background-image:url(/assets/portfolio/woocommerce-integration-code.jpg);">
+    <div class="portfolio-preview" style="background-image:url(/assets/home/woocommerce-integration-code.jpg);">
         <a href="/portfolio/woocommerce-back-office-integration/" class="portfolio-preview__link">WooCommerce Integrations</a>
     </diV>
 </diV>
