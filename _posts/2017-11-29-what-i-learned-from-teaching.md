@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: What I learned from teaching others
 author: Barry Rhodes
 bodyclass: blog teaching education development-methodolgies

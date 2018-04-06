@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Authentication and Authorisation.
 author: Barry Rhodes
 bodyclass: blog authentication-authorisation

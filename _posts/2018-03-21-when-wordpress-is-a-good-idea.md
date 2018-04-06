@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: When WordPress is a good idea
 subtitle: The most popular content management system on the web.
 author: Barry Rhodes

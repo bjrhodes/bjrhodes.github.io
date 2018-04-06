@@ -24,6 +24,19 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+exclude:
+  - 'README.md'
+  - 'Gemfile.lock'
+  - 'Gemfile'
+  - 'tale.gemspec'
+  - '.gitignore'
+  - 'LICENSE'
+  - 'README.md'
+  - 'CODE_OF_CONDUCT.md'
+
+include:
+  - "_portfolio"
+
 # Gems
 plugins:
   - jekyll-paginate-v2

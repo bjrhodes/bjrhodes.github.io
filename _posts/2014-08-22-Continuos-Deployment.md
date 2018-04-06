@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ensuring stability through Continuous Deployment
 author: Barry Rhodes
 bodyclass: blog continuous-deployment

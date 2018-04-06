@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How much does one line of code reveal?
 author: Barry Rhodes
 bodyclass: blog audit security software-design

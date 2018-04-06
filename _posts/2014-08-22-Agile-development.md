@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Why I use Agile
 author: Barry Rhodes
 bodyclass: blog agile-development

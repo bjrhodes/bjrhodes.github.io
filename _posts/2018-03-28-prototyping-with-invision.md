@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Prototyping with Invision
 subtitle: Rapid iteration for fun and profit
 author: Barry Rhodes

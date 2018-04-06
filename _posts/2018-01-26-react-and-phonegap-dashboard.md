@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mobile dashboard using react and phonegap
 subtitle: Where fun and work intersect
 author: Barry Rhodes
