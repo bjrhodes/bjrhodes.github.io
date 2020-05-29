@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ERP Portal iframe test</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="quiz/css/normalize.css">
+  <link rel="stylesheet" href="quiz/css/skeleton.css">
+
+  <style>
+      iframe {
+          width: 100vw;
+          height: 100vh;
+          position: absolute;
+          top: 0;
+          left: 0;
+      }
+      #control-panel {
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          height: 140px;
+          width: 200px;
+          background: white;
+          box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+          text-align: center;
+          padding: 20px;
+      }
+  </style>
+</head>
+
+<body>
+
+    <iframe id="iframe" src="https://erpportal.com" frameborder="0"></iframe>
+
+    <div id="control-panel">
+        <button id="d" data-url="https://erpportal.com">Default</button>
+        <button id="a" data-url="https://autotrader.erpportal.com">Autotrader</button>
+        <button id="u" data-url="https://uclan.erpportal.com">UCLAN</button>
+    </div>
+
+    <script>
+        (function() {
+            var iframe = document.getElementById('iframe');
+            var buttons = document.getElementsByTagName('button');
+
+            [].forEach.call(buttons, el => {
+                el.addEventListener('click', ev => {
+                    ev.preventDefault();
+                    iframe.src = el.getAttribute('data-url');
+                })
+            });
+        })()
+    </script>
+</body>
+
+</html>
