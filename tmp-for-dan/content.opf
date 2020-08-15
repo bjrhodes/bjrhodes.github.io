@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 13.1.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>TTT311.cover_ipad_epub</dc:title>
+		<dc:date>2020-08-10T16:59:15Z</dc:date>
+		<dc:language>en-GB</dc:language>
+		<meta property="dcterms:modified">2020-08-10T16:59:16Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+	</metadata>
+	<manifest>
+		<item id="TTT311.cover_ipad_epub-1" href="TTT311.cover_ipad_epub-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="HeroicCondensed-Bold.otf" href="font/HeroicCondensed-Bold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="HeroicCondensed-BoldOblique.otf" href="font/HeroicCondensed-BoldOblique.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Lato-Black.ttf" href="font/Lato-Black.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Lato-Bold.ttf" href="font/Lato-Bold.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Lato-Regular.ttf" href="font/Lato-Regular.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="LeituraDisplay-Roman.otf" href="font/LeituraDisplay-Roman.otf" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x7.png" href="image/7.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="x10.png" href="image/10.png" media-type="image/png" />
+		<item id="x11.png" href="image/11.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x13.png" href="image/13.png" media-type="image/png" />
+		<item id="x14.png" href="image/14.png" media-type="image/png" />
+		<item id="x15.png" href="image/15.png" media-type="image/png" />
+		<item id="x16.png" href="image/16.png" media-type="image/png" />
+		<item id="x18.png" href="image/18.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x23.png" href="image/23.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="TTT311.cover.LG_gettyscreen.png" href="image/TTT311.cover.LG_gettyscreen.png" media-type="image/png" />
+		<item id="TTT311.cover.NordBlue_back.png" href="image/TTT311.cover.NordBlue_back.png" media-type="image/png" />
+		<item id="TTT311.cover.NordBlue_front.png" href="image/TTT311.cover.NordBlue_front.png" media-type="image/png" />
+		<item id="TTT311.coverfinal_ng2.cover1b.jpg" href="image/TTT311.coverfinal_ng2.cover1b.jpg" media-type="image/jpeg" />
+		<item id="idGeneratedScript.js" href="script/idGeneratedScript.js" media-type="text/javascript" />
+	</manifest>
+	<spine>
+		<itemref idref="TTT311.cover_ipad_epub-1" />
+	</spine>
+</package>
